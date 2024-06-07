@@ -14,7 +14,6 @@ function App() {
     return savedCartItems ? JSON.parse(savedCartItems) : [];
   });
 
-
   useEffect(() => {
     const fetchProducts = async () => {
       const res = await axios.get("https://fakestoreapi.com/products");
