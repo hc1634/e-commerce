@@ -1,0 +1,248 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+.card {
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 30px;
+  text-align: start;
+}
+.proImageBox {
+  display: flex;
+  justify-content: center;
+}
+.proImageBox img {
+  height: 200px;
+  padding: 20px;
+}
+.productDetails {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.productDetails .proCat {
+  color: #7e7c78;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+.productDetails h3 {
+  font-size: 18px;
+  color: #31312f;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.productDetails .proPrice {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+.productDetails .proDesc {
+  color: #272726;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.pagination button {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #7e7c78;
+  color: #272726;
+  border-radius: 50px;
+}
+
+/*  */
+.proDetailPage {
+  height: auto;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.proInnerPagePrice {
+  color: #575654;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.proInnerPageTitle {
+  color: #022022;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.proInnerPageDesc {
+  color: #252323;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.proInnerPageDetails {
+  text-align: left;
+}
+.proInnerImageBox {
+  max-width: 100%;
+  height: auto;
+  margin: 30px;
+}
+.proInnerImageBox img {
+  height: 300px;
+  width: 100%;
+}
+.proInnerPageDetails .proCat {
+  color: #7e7c78;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+.popup {
+  position: fixed;
+  top: 80%;
+  right: 40%;
+  padding: 20px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  z-index: 1000;
+}
+.cart {
+  height: auto;
+  display: flex;
+
+  align-items: center;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contentDesc {
+  color: #000;
+  font-size: 20px;
+}
+.content-card {
+  border: 2px solid #007bff;
+  padding: 20px;
+  width: 50%;
+}
+.cartlink {
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 25px;
+}
+.cartProduct ul li {
+  width: 100%;
+  border: 1px solid grey;
+  padding: 20px;
+  list-style: none;
+  flex-direction: column;
+  margin-bottom: 10px;
+  text-align: start;
+}
+.cartProductTitle {
+  font-size: 18px;
+  color: #31312f;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.cartProductPrice {
+  color: #575654;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+.container {
+  text-align: center;
+}
+
+.cartButton {
+  color: #000;
+  background-color: transparent;
+  border: 2px solid #000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+.cartButton:hover {
+  background-color: #007bff;
+  color: #ffffff;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.filters-carts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+}
+@media (min-width: 319px) and (max-width: 500px) {
+  .filters-carts {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 20px;
+  }
+  .search-input {
+    margin-bottom: 10px;
+  }
+}
+.filter {
+  margin: 20px;
+}
+
+.filter select {
+  padding: 5px;
+  font-size: 16px;
+}
+.filter select option {
+  padding: 5px;
+  font-size: 16px;
+}
+.sort select {
+  padding: 5px;
+  font-size: 16px;
+}
+.sort select option {
+  padding: 5px;
+  font-size: 16px;
+}
+.search-input {
+  margin-left: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.proInnerImageBox {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+.proInnerImageBox img {
+  width: 300px;
+}
+.knowMore {
+  color: #272726;
+  font-weight: bold;
+  font-size: 15px;
+}
+.homePage {
+  margin-top: 60px;
+}
